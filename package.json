@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "bin": "cli.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "bili src/index.js",
     "test": "jest",
     "release": "npm run build && standard-version"
